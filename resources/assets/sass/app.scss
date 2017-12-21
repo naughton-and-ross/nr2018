@@ -2,9 +2,6 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
-
 // Fonts
 // Europa
 @import url("https://use.typekit.net/bxs7yqt.css");
@@ -26,6 +23,9 @@
 
 .hero-text {
     color: white;
+    h1 {
+        font-weight: 400;
+    }
 }
 
 .home-text {
@@ -35,4 +35,39 @@
 
 .tiles {
     background-color: white;
+
+    .intro {
+        text-align: center;
+    }
+}
+
+.spotlight {
+    .spotlight-tile {
+        padding: 10em 0 10em 0;
+
+        .text {
+            h1 {
+                font-size: 500%;
+            }
+            z-index: 10;
+        }
+
+        .iimage {
+            z-index: 9;
+        }
+
+        &.black {
+            background-color: black;
+            .text {
+                color: white;
+            }
+        }
+
+        &.blue {
+            background-color: #22A7F0;
+            .text {
+                color: white;
+            }
+        }
+    }
 }

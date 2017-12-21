@@ -1,95 +1,140 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
+        <title>Commodity Creative</title>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{asset('css/app.css')}}" />
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+        <section class="home-hero">
+            <div class="pure-g">
+                <div class="pure-u-6-24">
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
                 </div>
+                <div class="pure-u-1-2">
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div>
+                <div class="pure-u-6-24">
+
+                </div>
+                <div class="pure-u-6-24">
+
+                </div>
+                <div class="pure-u-10-24 hero-text">
+                    <div class="l-box">
+                        <h1>Commodity Creative is a design & development studio based in Melbourne, Australia.</h1>
+                        <h1>Focusing our work on Web Design & Development, we can also help with graphic design, print and publishing design, stationery, and photography.</h1>
+                        <h1>You're looking at some of our work. Here's <b>Little Sports Heroes</b>.</h1>
+                    </div>
+                </div>
+                <div class="pure-u-6-24">
+
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="home-text">
+            <div class="pure-g">
+                <div class="pure-u-1">
+                    <div class="l-box">
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section class="tiles">
+            <div class="pure-g">
+                <div class="pure-u-1 intro">
+                    <h1>Just a taste of what we do</h1>
+                </div>
+                <div class="pure-u-2-24">
+
+                </div>
+                <div class="pure-u-9-24">
+                    <div class="l-box" style="background-color: white;">
+                        <img src="{{asset('img/tom4.jpg')}}" class="pure-img" />
+                        <div class="pure-u-16-24">
+                            <h2>Project Title</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-2-24">
+
+                </div>
+                <div class="pure-u-9-24">
+                    <div class="l-box" style="background-color: white;">
+                        <img src="{{asset('img/tom3.jpg')}}" class="pure-img" />
+                        <h2>Project Title</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="pure-u-2-24">
+
+                </div>
+                <div class="pure-u-2-24">
+
+                </div>
+                <div class="pure-u-9-24">
+                    <div class="l-box" style="background-color: white;">
+                        <img src="{{asset('img/tom1.jpg')}}" class="pure-img" />
+                        <h2>Project Title</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section-->
+        <section class="spotlight">
+            <div class="pure-g spotlight-tile black">
+                <div class="pure-u-1-24"></div>
+                <div class="pure-u-2-24 text">
+                    <div class="l-box">
+                        <h1>Resist the Dutton Home Office</h1>
+                    </div>
+                </div>
+                <div class="pure-u-16-24 image">
+                    <img class="pure-img" src="{{asset('img/tom4.jpg')}}" />
+                </div>
+                <div class="pure-u-1-24"></div>
+                <div class="pure-u-3-24 text">
+                    <div class="l-box">
+                        <p>
+                            The Australian Government has been incrementally expanding its powers to retain identiying informations from Australians and establish a permanent state of exception. They have recently announced their plan to use images from state drivers licenses and map these with other personal biometric information to create a national database of faces.
+                        </p>
+                        <p>
+                            The plans are vague and do not guarantee security of Information. Let your voice be heard and contact your Federal MP and request more information about data retention and privacy of your biometric data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pure-g spotlight-tile blue">
+                <div class="pure-u-1-24"></div>
+                <div class="pure-u-2-24 text">
+                    <div class="l-box">
+                        <h1>Resist the Dutton Home Office</h1>
+                    </div>
+                </div>
+                <div class="pure-u-16-24 image">
+                    <img class="pure-img" src="{{asset('img/tom4.jpg')}}" />
+                </div>
+                <div class="pure-u-1-24"></div>
+                <div class="pure-u-3-24 text">
+                    <div class="l-box">
+                        <p>
+                            The Australian Government has been incrementally expanding its powers to retain identiying informations from Australians and establish a permanent state of exception. They have recently announced their plan to use images from state drivers licenses and map these with other personal biometric information to create a national database of faces.
+                        </p>
+                        <p>
+                            The plans are vague and do not guarantee security of Information. Let your voice be heard and contact your Federal MP and request more information about data retention and privacy of your biometric data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
