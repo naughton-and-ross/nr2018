@@ -32,9 +32,12 @@
     width: 100vw;
     background-color: white;
     text-align: center;
-    color: #c9c9c9;
-    font-weight: normal;
-    font-size: 150%;
+    color: #c4c4c4;
+
+    h1 {
+        font-weight: 300;
+        font-size: 150%;
+    }
 }
 
 .tiles {
