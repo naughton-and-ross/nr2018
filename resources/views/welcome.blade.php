@@ -92,7 +92,7 @@
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-2-24 text">
                     <div class="l-box">
-                        <h1>Resist the Dutton Home Office</h1>
+                        <h1>Resist the State of Exception</h1>
                         <p>
                             See more &rarr;
                         </p>
