@@ -24,6 +24,10 @@
 .home-text {
   width: 100vw;
   background-color: white;
+  text-align: center;
+  color: #c9c9c9;
+  font-weight: normal;
+  font-size: 150%;
 }
 
 .tiles {
@@ -46,6 +50,10 @@
   font-size: 500%;
 }
 
+.spotlight .spotlight-tile .text.right > * {
+  float: right;
+}
+
 .spotlight .spotlight-tile .iimage {
   z-index: 9;
 }
@@ -63,6 +71,6 @@
 }
 
 .spotlight .spotlight-tile.blue .text {
-  color: white;
+  color: black;
 }
 

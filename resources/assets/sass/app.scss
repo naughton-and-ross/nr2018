@@ -31,6 +31,10 @@
 .home-text {
     width: 100vw;
     background-color: white;
+    text-align: center;
+    color: #c9c9c9;
+    font-weight: normal;
+    font-size: 150%;
 }
 
 .tiles {
@@ -50,6 +54,10 @@
                 font-size: 500%;
             }
             z-index: 10;
+
+            &.right > * {
+                float: right;
+            }
         }
 
         .iimage {
@@ -66,8 +74,10 @@
         &.blue {
             background-color: #22A7F0;
             .text {
-                color: white;
+                color: black;
             }
         }
     }
 }
+
+@import "responsive";
