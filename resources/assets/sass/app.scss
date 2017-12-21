@@ -1,9 +1,38 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Fonts
+// Europa
+@import url("https://use.typekit.net/bxs7yqt.css");
+
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "europa", sans-serif;
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.home-hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9BF3B;
+}
+
+.hero-text {
+    color: white;
+}
+
+.home-text {
+    width: 100vw;
+    background-color: white;
+}
+
+.tiles {
+    background-color: white;
+}
