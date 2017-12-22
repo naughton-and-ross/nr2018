@@ -15,17 +15,28 @@
     <body>
         <section class="home-hero">
             <div class="pure-g">
-                <div class="pure-u-1 pure-u-xl-7-24">
+                <div class="pure-u-1 pure-u-xl-8-24">
 
                 </div>
-                <div class="pure-u-1 pure-u-xl-10-24 hero-text">
+                <div class="pure-u-1 pure-u-xl-8-24 hero-text">
                     <div class="l-box">
-                        <h1>Commodity Creative is a design & development studio based in Melbourne, Australia.</h1>
+                        <h1>Commodity Creative:</h1>
+                    </div>
+                </div>
+                <div class="pure-u-1 pure-u-xl-8-24">
+
+                </div>
+                <div class="pure-u-1 pure-u-xl-8-24">
+
+                </div>
+                <div class="pure-u-1 pure-u-xl-8-24 hero-text">
+                    <div class="l-box">
+                        <h1>A design & development studio based in <b>Melbourne, Australia</b>.</h1>
                         <h1>Focusing our work on Web Design & Development, we can also help with graphic design, print and publishing design, stationery, and photography.</h1>
                         <h1>You're looking at some of our work. Here's <b>Project Title</b>.</h1>
                     </div>
                 </div>
-                <div class="pure-u-1 pure-u-xl-7-24">
+                <div class="pure-u-1 pure-u-xl-8-24">
 
                 </div>
             </div>
@@ -179,7 +190,7 @@
                 </div>
 
                 <div class="pure-u-1 pure-u-xl-16-24 image">
-                    <img class="pure-img" src="{{asset('img/tom5.jpg')}}" />
+                    <img class="pure-img" src="https://farm1.staticflickr.com/430/18143519083_85c8c66813_k_d.jpg" />
                 </div>
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-3-24 text">
