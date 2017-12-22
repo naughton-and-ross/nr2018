@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pure-g spotlight-tile blue">
+            <div class="pure-g spotlight-tile green">
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-3-24 text">
                     <div class="l-box">
@@ -138,6 +138,33 @@
                 </div>
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
 
+            </div>
+            <div class="pure-g spotlight-tile grey">
+                <div class="pure-u-1 pure-u-xl-1-24"></div>
+
+                <div class="pure-u-1 pure-u-xl-2-24 text">
+                    <div class="l-box">
+                        <h1>Virtual Nation: Sovereignty Without Borders</h1>
+                        <p>
+                            See more &rarr;
+                        </p>
+                    </div>
+                </div>
+
+                <div class="pure-u-1 pure-u-xl-16-24 image">
+                    <img class="pure-img" src="{{asset('img/tom5.jpg')}}" />
+                </div>
+                <div class="pure-u-1 pure-u-xl-1-24"></div>
+                <div class="pure-u-1 pure-u-xl-3-24 text">
+                    <div class="l-box bottom">
+                        <p>
+                            The Australian Government has been incrementally expanding its powers to retain identiying informations from Australians and establish a permanent state of exception. They have recently announced their plan to use images from state drivers licenses and map these with other personal biometric information to create a national database of faces.
+                        </p>
+                        <p>
+                            The plans are vague and do not guarantee security of Information. Let your voice be heard and contact your Federal MP and request more information about data retention and privacy of your biometric data.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
     </body>

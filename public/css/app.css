@@ -46,6 +46,7 @@
 }
 
 .spotlight .spotlight-tile .text {
+  position: relative;
   z-index: 10;
 }
 
@@ -55,6 +56,11 @@
 
 .spotlight .spotlight-tile .text.right > * {
   float: right;
+}
+
+.spotlight .spotlight-tile .text .bottom {
+  position: absolute;
+  bottom: 0;
 }
 
 .spotlight .spotlight-tile .iimage {
@@ -74,6 +80,22 @@
 }
 
 .spotlight .spotlight-tile.blue .text {
+  color: black;
+}
+
+.spotlight .spotlight-tile.green {
+  background-color: #2ECC71;
+}
+
+.spotlight .spotlight-tile.green .text {
+  color: black;
+}
+
+.spotlight .spotlight-tile.grey {
+  background-color: #F2F1EF;
+}
+
+.spotlight .spotlight-tile.grey .text {
   color: black;
 }
 

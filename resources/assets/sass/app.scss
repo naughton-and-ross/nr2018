@@ -53,6 +53,8 @@
         padding: 10em 0 10em 0;
 
         .text {
+            position: relative;
+
             h1 {
                 font-size: 500%;
             }
@@ -60,6 +62,11 @@
 
             &.right > * {
                 float: right;
+            }
+
+            .bottom {
+                position: absolute;
+                bottom: 0;
             }
         }
 
@@ -76,6 +83,20 @@
 
         &.blue {
             background-color: #22A7F0;
+            .text {
+                color: black;
+            }
+        }
+
+        &.green {
+            background-color: #2ECC71;
+            .text {
+                color: black;
+            }
+        }
+
+        &.grey {
+            background-color: #F2F1EF;
             .text {
                 color: black;
             }
