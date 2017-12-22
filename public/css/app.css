@@ -21,6 +21,14 @@
   font-weight: 400;
 }
 
+.info .info-tile h1 {
+  font-size: 200%;
+}
+
+.info .info-tile.secondary {
+  color: #c7c7c7;
+}
+
 .home-text {
   width: 100vw;
   background-color: white;
