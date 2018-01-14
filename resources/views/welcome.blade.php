@@ -15,29 +15,18 @@
     <body>
         <section class="home-hero">
             <div class="pure-g">
-                <div class="pure-u-1 pure-u-xl-8-24">
-
+                <div class="pure-u-1 pure-u-xl-1-24">
                 </div>
-                <div class="pure-u-1 pure-u-xl-8-24 hero-text">
+                <div class="pure-u-1 pure-u-xl-1-24">
                     <div class="l-box">
-                        <h1>Commodity Creative:</h1>
+                        <img class="pure-img logo-home" src="{{asset('img/cc_logo_white.png')}}" />
                     </div>
                 </div>
-                <div class="pure-u-1 pure-u-xl-8-24">
-
+                <div class="pure-u-1 pure-u-xl-20-24">
+                    <h1>Commodity Creative.</h1>
                 </div>
-                <div class="pure-u-1 pure-u-xl-8-24">
-
-                </div>
-                <div class="pure-u-1 pure-u-xl-8-24 hero-text">
-                    <div class="l-box">
-                        <h1>A design & development studio based in <b>Melbourne, Australia</b>.</h1>
-                        <h1>Focusing our work on Web Design & Development, we can also help with graphic design, print and publishing design, stationery, and photography.</h1>
-                        <h1>You're looking at some of our work. Here's <b>Project Title</b>.</h1>
-                    </div>
-                </div>
-                <div class="pure-u-1 pure-u-xl-8-24">
-
+                <div class="pure-u-1 pure-u-xl-2-24">
+                    menu
                 </div>
             </div>
         </section>
@@ -99,6 +88,7 @@
                     <div class="l-box">
                         <h1>&#8212;</h1>
                         <h1>Copywriting</h1>
+                        <h2></h2>
                     </div>
                 </div>
                 <div class="pure-u-1 pure-u-xl-2-24"></div>
