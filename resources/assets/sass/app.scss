@@ -15,9 +15,11 @@
     padding: 1em;
 }
 
+
+
 .home-hero {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #F9BF3B;
 
     h1 {
@@ -124,5 +126,16 @@
         }
     }
 }
+
+/* tom */
+
+.footer{
+  background: black;
+
+  div{
+    padding: 15px;
+  }
+}
+
 
 @import "responsive";

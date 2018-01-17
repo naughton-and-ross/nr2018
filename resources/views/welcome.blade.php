@@ -253,6 +253,15 @@
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
 
             </div>
+
+            <div class="pure-g footer">
+                  <div class="pure-u-1-5"><p>Thirds</p></div>
+                  <div class="pure-u-1-5"><p>Thirds</p></div>
+                  <div class="pure-u-1-5"><p>Thirds</p></div>
+                  <div class="pure-u-1-5"><p>Thirds</p></div>
+                  <div class="pure-u-1-5"><p>Thirds</p></div>
+            </div>
+
         </section>
     </body>
 </html>
