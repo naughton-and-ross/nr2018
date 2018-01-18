@@ -152,7 +152,7 @@
             </div>
         </section-->
         <section class="spotlight">
-            <div class="pure-g spotlight-tile black">
+            <div class="pure-g spotlight-tile">
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-2-24 text">
                     <div class="l-box">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pure-g spotlight-tile green">
+            <div class="pure-g spotlight-tile">
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-3-24 text">
                     <div class="l-box">
@@ -203,7 +203,7 @@
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
 
             </div>
-            <div class="pure-g spotlight-tile grey">
+            <div class="pure-g spotlight-tile">
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
 
                 <div class="pure-u-1 pure-u-xl-2-24 text">
@@ -227,7 +227,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pure-g spotlight-tile blue">
+            <div class="pure-g spotlight-tile">
                 <div class="pure-u-1 pure-u-xl-1-24"></div>
                 <div class="pure-u-1 pure-u-xl-3-24 text">
                     <div class="l-box bottom">
@@ -255,11 +255,35 @@
             </div>
 
             <div class="pure-g footer">
-                  <div class="pure-u-1-5"><p>Thirds</p></div>
-                  <div class="pure-u-1-5"><p>Thirds</p></div>
-                  <div class="pure-u-1-5"><p>Thirds</p></div>
-                  <div class="pure-u-1-5"><p>Thirds</p></div>
-                  <div class="pure-u-1-5"><p>Thirds</p></div>
+                  <div class="pure-u-1-5"><article></article></div>
+                  <div class="pure-u-1-5">
+                    <article>
+                      <h2>William Naughton-Gravette</h2>
+                        <p>william@commoditycreative.com.au</p>
+                        <p>0400 000 000</p>
+                        <p>CV</p>
+                      <h2>Tom Ross</h2>
+                        <p>tom@commoditycreative.com.au</p>
+                        <p>0400 000 000</p>
+                          <p>CV</p>
+                          <p>Instagram</p>
+                          <p>LinkedIn</p>
+                    </article>
+                  </div>
+                  <div class="pure-u-1-5">
+                    <article>
+                      <h2>Contact</h2>
+                    </article>
+                  </div>
+                  <div class="pure-u-1-5">
+                    <article>
+                      <h2>Social</h2>
+                      <p>facebook</p>
+                      <p>hello@commoditycreative</p>
+                      <p></p>
+                    </article>
+                  </div>
+                  <div class="pure-u-1-5"><article></article></div>
             </div>
 
         </section>
